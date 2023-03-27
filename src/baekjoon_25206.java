@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public interface baekjoon_25206 {
+public class baekjoon_25206 {
 
         public static void main(String[] args) throws IOException {
             String[][] grade = new String[20][3];
@@ -72,4 +72,4 @@ public interface baekjoon_25206 {
             return sum;
         }
     }
-}
+
