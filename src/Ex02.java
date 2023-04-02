@@ -1,5 +1,5 @@
-public class Ex02 {
-    class Calculator {
+
+     class Calculator01 {
         int left, right;
 
         public void setOprands(int left, int right) {
@@ -16,19 +16,19 @@ public class Ex02 {
         }
     }
 
-    public class CalculatorDemo4 {
+    public class Ex02 {
         public void main(String[] args) {
 
-            Calculator cl = new Calculator();
+            Calculator01 cl = new Calculator01();
             cl.setOprands(10, 20);
             cl.sum();
             cl.avg();
 
-            Calculator c2 = new Calculator();
+            Calculator01 c2 = new Calculator01();
             c2.setOprands(20, 40);
             c2.sum();
             c2.avg();
         }
     }
-}
+
 
