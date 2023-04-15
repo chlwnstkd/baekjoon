@@ -1,3 +1,5 @@
+package ex;
+
 class Calculator04{
 
     public static void sum(int left, int right) {

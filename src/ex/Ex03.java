@@ -1,3 +1,5 @@
+package ex;
+
 class Calculator02 {
         static double PI = 3.14;
         int left, right;

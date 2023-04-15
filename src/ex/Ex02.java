@@ -1,5 +1,6 @@
+package ex;
 
-     class Calculator01 {
+class Calculator01 {
         int left, right;
 
         public void setOprands(int left, int right) {

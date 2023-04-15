@@ -1,3 +1,5 @@
+package ex;
+
 public class Ex01 {
     public static void avg(int left, int right) {
         System.out.println((left + right) / 2);
