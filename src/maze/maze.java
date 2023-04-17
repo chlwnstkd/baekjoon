@@ -7,6 +7,7 @@ public class maze {
         Scanner s = new Scanner(System.in);
         wall w = new wall();
         play p = new play();
+        player pl = new player();
         int n = s.nextInt();
         int tn = 2*(n+2);
         String[][] maze = new String[tn-1][2*tn+1];
@@ -23,5 +24,6 @@ public class maze {
             System.out.println();
         }
         p.end_2(maze,tn);
+        pl.play(maze, tn);
     }
 }
