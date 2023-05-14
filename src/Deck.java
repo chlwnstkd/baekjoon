@@ -11,8 +11,8 @@ public class Deck {
         LinkedList<Card> cards = new LinkedList<>();
         for (Pattern p : Pattern.values()) {
             for (int i = 1; i <= 13; i++) {
-                Card c = new Card(p, i);
-                cards.add(c);
+//                Card c = new Card(p, i);
+//                cards.add(c);
             }
         }
         return cards;
