@@ -15,11 +15,11 @@ public class baekjoon_1303 {
         static int enemyCount;
 
         public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
+            Scanner s = new Scanner(System.in);
 
-            n = sc.nextInt();
-            m = sc.nextInt();
-            sc.nextLine();
+            n = s.nextInt();
+            m = s.nextInt();
+            s.nextLine();
 
             map = new char[n][m];
             visit = new boolean[n][m];
@@ -29,7 +29,7 @@ public class baekjoon_1303 {
             enemyCount = 0;
 
             for (int i = 0; i < n; i++) {
-                String str = sc.nextLine();
+                String str = s.nextLine();
                 for (int j = 0; j < str.length(); j++) {
                     map[i][j] = str.charAt(j);
                 }
